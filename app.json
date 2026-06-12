@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Celula VIDA",
+    "slug": "Celula-Vida-app",
+    "version": "1.0.0",
+    "orientation":" portrait",
+    "icon": "./assets/img/cozinhafacillogo.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/img/cozinhafacillogo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/cozinhafacillogo.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.gabriellevargasw.Cozinhafacilapp"
+    },
+    "web": {
+      "favicon": "./assets/img/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1fafe6b-224b-42fb-893a-7eee6708ff72"
+      }
+    }
+  }
+}
