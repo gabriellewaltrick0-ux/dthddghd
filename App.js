@@ -1,34 +1,20 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { NavigationContainer } from '@react-navigation/native';
-import Splash from './Telas/splash';
-import Login from './Telas/login';
-import Inicio from './Telas/inicio';
-import Buscarreceitas from './Telas/buscarreceitas';
-import Receitaaleatoria from './Telas/receitaaleatoria';
-import Favoritos from './Telas/favoritos';
-import Registrar from './Telas/registrar'; 
-import Esqueceuasenha from './Telas/esqueceuasenha';
-import Detalhes from './Telas/detalhes';
-
-
-const Stack = createNativeStackNavigator();
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Splash">
-      <Stack.Screen name="Splash" component={Splash} options={{ headerShown: false }} />
-        <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
-        <Stack.Screen name="Inicio" component={Inicio} options={{ headerShown: false }}/>
-        <Stack.Screen name="Buscarreceitas" component={Buscarreceitas} options={{ headerShown: false }} />
-        <Stack.Screen name="Detalhes" component={Detalhes} options={{ headerShown: false }}/>
-        <Stack.Screen name="Receitaaleatoria" component={Receitaaleatoria} options={{ headerShown: false }}/>
-        <Stack.Screen name="Favoritos" component={Favoritos} options={{ headerShown: false }} />
-        <Stack.Screen name="Registrar" component={Registrar} options={{ headerShown: false }}/>
-        <Stack.Screen name="Esqueceuasenha" component={Esqueceuasenha} options={{ headerShown: false }} />
-        
-      </Stack.Navigator>
-    </NavigationContainer>
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Celula VIDA",
-    "slug": "Celula-Vida-app",
+    "name": "celulavida",
+    "slug": "celulavida",
     "version": "1.0.0",
-    "orientation":" portrait",
-    "icon": "./assets/img/cozinhafacillogo.jpg",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/img/cozinhafacillogo.jpg",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,19 +17,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/img/cozinhafacillogo.jpg",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.gabriellevargasw.Cozinhafacilapp"
+      "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/img/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "b1fafe6b-224b-42fb-893a-7eee6708ff72"
-      }
+      "favicon": "./assets/favicon.png"
     }
   }
 }
